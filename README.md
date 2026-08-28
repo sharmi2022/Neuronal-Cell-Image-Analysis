@@ -122,8 +122,37 @@ Future versions will include:
 The repository contains computational workflows and demonstration data only.
 Unpublished experimental datasets and raw microscopy images are not publicly
 distributed.
+## ▶️ Run the Analysis
 
-## 👩‍🔬 Author
+Install the required Python packages:
+
+```bash
+pip install -r requirements.txt
+```
+Run the complete JC-1 analysis workflow:
+
+```bash
+python run_analysis.py
+```
+
+The workflow automatically:
+
+1. Loads the synthetic JC-1 fluorescence dataset
+2. Calculates the JC-1 red/green fluorescence ratio
+3. Normalizes values relative to the untreated control
+4. Calculates group summary statistics
+5. Generates a visualization of relative mitochondrial membrane potential
+
+### Output Files
+
+The analysis generates:
+
+- `results/jc1_processed_results.csv`
+- `results/jc1_group_summary.csv`
+- `results/jc1_normalized_membrane_potential.png`
+
+
+##👩‍🔬 Author
 
 **Sharmistha Dutta**
 
