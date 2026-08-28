@@ -29,3 +29,103 @@ quantitative and computational analysis using ImageJ/Fiji and Python.
 - Pandas
 - Matplotlib
 - SciPy
+# Neuronal Cell Image Analysis
+
+A reproducible computational workflow for quantitative analysis of fluorescence
+microscopy data from neuronal cell models.
+
+This repository demonstrates the integration of biological imaging, image
+processing, quantitative fluorescence analysis, and Python-based data analysis
+for investigating oxidative stress, mitochondrial function, and neuroprotection.
+
+## 🧠 Biological Context
+
+Fluorescence microscopy provides quantitative information about cellular
+responses that may not be captured by visual inspection alone. This project
+focuses on converting neuronal fluorescence microscopy measurements into
+reproducible quantitative datasets for downstream biological interpretation.
+
+## 🔬 Current Analysis Workflows
+
+### 1. Fluorescence Image Analysis
+
+`src/image_analysis.py`
+
+The workflow includes:
+
+- Loading fluorescence microscopy images
+- Grayscale intensity extraction
+- Background estimation and correction
+- Mean fluorescence intensity calculation
+- Batch processing of microscopy images
+- Export of quantitative measurements to CSV
+
+### 2. JC-1 Mitochondrial Membrane Potential Analysis
+
+`src/jc1_analysis.py`
+
+JC-1 fluorescence can be used to assess changes in mitochondrial membrane
+potential through the ratio of red to green fluorescence.
+
+The workflow includes:
+
+- Red and green fluorescence measurements
+- Background-corrected signal analysis
+- Calculation of JC-1 red/green fluorescence ratio
+- Normalization relative to untreated controls
+- Comparison of experimental treatment groups
+
+## 🛠️ Tools and Technologies
+
+- Python
+- NumPy
+- Pandas
+- Pillow
+- ImageJ/Fiji
+- Fluorescence microscopy
+- Quantitative image analysis
+
+## 📁 Repository Structure
+
+    Neuronal-Cell-Image-Analysis/
+    │
+    ├── src/
+    │   ├── image_analysis.py
+    │   └── jc1_analysis.py
+    │
+    ├── README.md
+    └── requirements.txt
+
+## 🎯 Research Applications
+
+This workflow can support quantitative investigation of:
+
+- Oxidative stress
+- Mitochondrial dysfunction
+- Neurotoxicity
+- Neuroprotection
+- Cellular responses to experimental treatments
+
+## 🔄 Planned Development
+
+Future versions will include:
+
+- Automated region-of-interest analysis
+- Multi-channel fluorescence image processing
+- Statistical comparison of experimental groups
+- Publication-quality visualization
+- Example datasets for reproducible demonstration
+- Additional neuronal imaging workflows
+
+## ⚠️ Data Availability
+
+The repository contains computational workflows and demonstration data only.
+Unpublished experimental datasets and raw microscopy images are not publicly
+distributed.
+
+## 👩‍🔬 Author
+
+**Sharmistha Dutta**
+
+PhD Researcher | Computational Biology | Machine Learning | Neurobiology |
+Quantitative Bioimage Analysis
