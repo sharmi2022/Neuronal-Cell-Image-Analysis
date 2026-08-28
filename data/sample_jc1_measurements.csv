@@ -1,0 +1,16 @@
+group,replicate,red_intensity,green_intensity
+Control,1,248,92
+Control,2,255,96
+Control,3,251,94
+Oxidative_stress,1,82,181
+Oxidative_stress,2,78,176
+Oxidative_stress,3,85,184
+Positive_control,1,191,116
+Positive_control,2,186,119
+Positive_control,3,194,121
+Treatment_A,1,176,124
+Treatment_A,2,181,128
+Treatment_A,3,173,121
+Treatment_B,1,151,137
+Treatment_B,2,147,133
+Treatment_B,3,154,139
