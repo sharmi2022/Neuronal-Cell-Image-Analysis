@@ -150,7 +150,13 @@ The analysis generates:
 - `results/jc1_processed_results.csv`
 - `results/jc1_group_summary.csv`
 - `results/jc1_normalized_membrane_potential.png`
+## 📊 Example Output
 
+The figure below demonstrates the JC-1 analysis workflow using the synthetic example dataset.
+
+![JC-1 mitochondrial membrane potential analysis](jc1_normalized_membrane_potential.png)
+
+*Example visualization generated from synthetic demonstration data. Values do not represent experimental research results.*
 
 ##👩‍🔬 Author
 
